@@ -12,89 +12,124 @@ namespace Rood_Rekenmachine
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        enum enumState
         {
-
+            getFirstNumber,
+            getSecondNumber
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        enum enumOperator
         {
-
+            add,
+            sub,
+            multiply,
+            divide
         }
+                  
 
-        private void button3_Click(object sender, EventArgs e)
+        decimal lastAnswer = 0; // so it doesn't crash when using Ans before Calc
+        decimal firstNumber;
+        decimal secondNumber;
+
+        enumOperator chosenOperator;
+
+        private void buttonNumeric_Click(object sender, EventArgs e)
         {
+            // get the first number
+            //    untill getting an operator
+            // get the second number
+            //    untill getting calc command
+            // show result
 
-        }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
+            // would use switch, but switch doesn't like button as a variable
+            // Numeric buttons
+            if (sender == button0)
+            {
+                textBox.Text = "0";
+            }
+            else if(sender == button1)
+            {
+                textBox.Text = "1";
+            }
+            else if (sender == button2)
+            {
+                textBox.Text = "2";
+            }
+            else if (sender == button3)
+            {
+                textBox.Text = "3";
+            }
+            else if (sender == button4)
+            {
+                textBox.Text = "4";
+            }
+            else if (sender == button5)
+            {
+                textBox.Text = "5";
+            }
+            else if (sender == button6)
+            {
+                textBox.Text = "6";
+            }
+            else if (sender == button7)
+            {
+                textBox.Text = "7";
+            }
+            else if (sender == button8)
+            {
+                textBox.Text = "8";
+            }
+            else if (sender == button9)
+            {
+                textBox.Text = "9";
+            }
 
-        }
+            // Calculus buttons
+            else if (sender == buttonAdd)
+            {
 
-        private void button5_Click(object sender, EventArgs e)
-        {
+            }
+            else if (sender == buttonSub)
+            {
 
-        }
+            }
+            else if (sender == buttonMult)
+            {
 
-        private void button6_Click(object sender, EventArgs e)
-        {
+            }
+            else if (sender == buttonDiv)
+            {
 
-        }
+            }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
+            // Fuctional buttons
+            else if (sender == buttonDecimalPoint)
+            {
 
-        }
+            }
+            else if (sender == buttonAns)
+            {
 
-        private void button8_Click(object sender, EventArgs e)
-        {
+            }
+            else if (sender == buttonCalc)
+            {
 
-        }
+            }
+            else if (sender == buttonDel)
+            {
 
-        private void button9_Click(object sender, EventArgs e)
-        {
+            }
+            else if (sender == buttonClear)
+            {
 
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-
+            }
         }
     }
 }
