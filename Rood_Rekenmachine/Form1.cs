@@ -142,6 +142,19 @@ namespace Rood_Rekenmachine
                     secondNumber = lastAnswer;
                 }
             }
+            else if (sender == buttonNegate)
+            {
+                if (calcState == enumState.getFirstNumber ||
+                    calcState == enumState.getFirstNumberDecimal)
+                {
+                    firstNumber *= -1;
+                }
+                else if (calcState == enumState.getSecondNumber ||
+                         calcState == enumState.getSecondNumberDecimal)
+                {
+                    secondNumber *= -1;
+                }
+            }
             else if (sender == buttonCalc)
             {
                 // sending this to another function cause it's gonna be a big one.

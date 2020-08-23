@@ -48,7 +48,7 @@
             this.buttonMult = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
             this.buttonDel = new System.Windows.Forms.Button();
-            this.buttonNegative = new System.Windows.Forms.Button();
+            this.buttonNegate = new System.Windows.Forms.Button();
             this.textBoxAnswer = new System.Windows.Forms.TextBox();
             this.textBoxSecondNumber = new System.Windows.Forms.TextBox();
             this.textBoxOperator = new System.Windows.Forms.TextBox();
@@ -61,7 +61,6 @@
             this.textBoxFirstNumber.Name = "textBoxFirstNumber";
             this.textBoxFirstNumber.Size = new System.Drawing.Size(238, 31);
             this.textBoxFirstNumber.TabIndex = 0;
-            this.textBoxFirstNumber.Text = "testLine";
             // 
             // button1
             // 
@@ -272,16 +271,16 @@
             this.buttonDel.UseVisualStyleBackColor = true;
             this.buttonDel.Click += new System.EventHandler(this.buttonGeneric_Click);
             // 
-            // buttonNegative
+            // buttonNegate
             // 
-            this.buttonNegative.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNegative.Location = new System.Drawing.Point(141, 335);
-            this.buttonNegative.Name = "buttonNegative";
-            this.buttonNegative.Size = new System.Drawing.Size(43, 43);
-            this.buttonNegative.TabIndex = 7;
-            this.buttonNegative.Text = "(-)";
-            this.buttonNegative.UseVisualStyleBackColor = true;
-            this.buttonNegative.Click += new System.EventHandler(this.buttonGeneric_Click);
+            this.buttonNegate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNegate.Location = new System.Drawing.Point(141, 335);
+            this.buttonNegate.Name = "buttonNegate";
+            this.buttonNegate.Size = new System.Drawing.Size(43, 43);
+            this.buttonNegate.TabIndex = 7;
+            this.buttonNegate.Text = "(-)";
+            this.buttonNegate.UseVisualStyleBackColor = true;
+            this.buttonNegate.Click += new System.EventHandler(this.buttonGeneric_Click);
             // 
             // textBoxAnswer
             // 
@@ -291,7 +290,6 @@
             this.textBoxAnswer.ReadOnly = true;
             this.textBoxAnswer.Size = new System.Drawing.Size(121, 31);
             this.textBoxAnswer.TabIndex = 13;
-            this.textBoxAnswer.Text = "testLine";
             // 
             // textBoxSecondNumber
             // 
@@ -300,7 +298,6 @@
             this.textBoxSecondNumber.Name = "textBoxSecondNumber";
             this.textBoxSecondNumber.Size = new System.Drawing.Size(238, 31);
             this.textBoxSecondNumber.TabIndex = 14;
-            this.textBoxSecondNumber.Text = "testLine";
             // 
             // textBoxOperator
             // 
@@ -310,7 +307,6 @@
             this.textBoxOperator.ReadOnly = true;
             this.textBoxOperator.Size = new System.Drawing.Size(43, 31);
             this.textBoxOperator.TabIndex = 14;
-            this.textBoxOperator.Text = "testLine";
             // 
             // Form1
             // 
@@ -325,7 +321,7 @@
             this.Controls.Add(this.buttonDecimalPoint);
             this.Controls.Add(this.button0);
             this.Controls.Add(this.buttonCalc);
-            this.Controls.Add(this.buttonNegative);
+            this.Controls.Add(this.buttonNegate);
             this.Controls.Add(this.buttonSub);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonMult);
@@ -370,7 +366,7 @@
         private System.Windows.Forms.Button buttonMult;
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.Button buttonDel;
-        private System.Windows.Forms.Button buttonNegative;
+        private System.Windows.Forms.Button buttonNegate;
         private System.Windows.Forms.TextBox textBoxAnswer;
         private System.Windows.Forms.TextBox textBoxSecondNumber;
         private System.Windows.Forms.TextBox textBoxOperator;
