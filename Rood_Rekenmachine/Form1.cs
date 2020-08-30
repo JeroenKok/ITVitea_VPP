@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,9 @@ namespace Rood_Rekenmachine
         public Form1()
         {
             InitializeComponent();
+            radioEditNumber1.Checked = true;
+            radioEditNumber2.Checked = false;
+            updateText();
         }
 
         enum enumState
@@ -32,6 +36,9 @@ namespace Rood_Rekenmachine
             sub,
             multiply,
             divide,
+            power,
+            log,
+            root,
             none
         }
                   
@@ -47,15 +54,14 @@ namespace Rood_Rekenmachine
         private void buttonGeneric_Click(object sender, EventArgs e)
         {
             // get the first number
-            //    untill getting an operator
             // get the second number
-            //    untill getting calc command
+            // get operator
             // show result
 
-            decimal gottenNumber = -1;
+            decimal gottenNumber = -1; // can do because this is the button, not the number used in the sum
 
-
-            // would use switch, but switch doesn't like button as a variable
+            // I'd love to have used a switch, but switch doesn't like button as a variable for some reason.
+            // In the later code you'll see I know how to use it. Maybe it's confused as it's trying to hash sender or so?
             // Numeric buttons
             if (sender == button0)
             {
@@ -98,31 +104,40 @@ namespace Rood_Rekenmachine
                 gottenNumber = 9;
             }
 
-            // Calculus buttons
+            // Operator buttons
             else if (sender == buttonAdd)
             {
                 chosenOperator = enumOperator.add;
-                calcState = enumState.getSecondNumber;
             }
             else if (sender == buttonSub)
             {
                 chosenOperator = enumOperator.sub;
-                calcState = enumState.getSecondNumber;
             }
             else if (sender == buttonMult)
             {
                 chosenOperator = enumOperator.multiply;
-                calcState = enumState.getSecondNumber;
             }
             else if (sender == buttonDiv)
             {
                 chosenOperator = enumOperator.divide;
-                calcState = enumState.getSecondNumber;
+            }
+            else if (sender == buttonPower)
+            {
+                chosenOperator = enumOperator.power;
+            }
+            else if (sender == buttonLog)
+            {
+                chosenOperator = enumOperator.log;
+            }
+            else if (sender == buttonRoot)
+            {
+                chosenOperator = enumOperator.root;
             }
 
             // Fuctional buttons
             else if (sender == buttonDecimalPoint)
             {
+                // if xNumber, make xNumberDecimal
                 if( calcState == enumState.getFirstNumber)
                 {
                     calcState = enumState.getFirstNumberDecimal;
@@ -188,6 +203,8 @@ namespace Rood_Rekenmachine
                 chosenOperator = enumOperator.none;
                 lastAnswer = 0;
                 calcState = enumState.getFirstNumber;
+                radioEditNumber1.Checked = true;
+                radioEditNumber2.Checked = false;
             }
 
 
@@ -231,13 +248,17 @@ namespace Rood_Rekenmachine
                     secondNumber += gottenNumber * (decimal)Math.Pow(10, -num_iterations);
                 }
             }
+            updateText();
+        }
 
+        void updateText()
+        {
             // Format the textfield with the sum
 
             textBoxFirstNumber.Text = Convert.ToString(firstNumber);
             textBoxSecondNumber.Text = Convert.ToString(secondNumber);
 
-            switch(chosenOperator)
+            switch (chosenOperator)
             {
                 case enumOperator.add:
                     textBoxOperator.Text = "+";
@@ -251,6 +272,15 @@ namespace Rood_Rekenmachine
                 case enumOperator.divide:
                     textBoxOperator.Text = "/";
                     break;
+                case enumOperator.power:
+                    textBoxOperator.Text = "^";
+                    break;
+                case enumOperator.log:
+                    textBoxOperator.Text = "Log";
+                    break;
+                case enumOperator.root:
+                    textBoxOperator.Text = "√";
+                    break;
                 case enumOperator.none:
                     textBoxOperator.Text = "";
                     break;
@@ -261,24 +291,73 @@ namespace Rood_Rekenmachine
 
         void calculateSum()
         {
-            if(firstNumber != 0M && secondNumber != 0M && chosenOperator != enumOperator.none) {
+            //if(firstNumber != 0M && secondNumber != 0M && chosenOperator != enumOperator.none) {
 
-                switch (chosenOperator)
+            // don't calc if you don't know the operator
+            // big question, if the user does things like x/0, am I the one to catch that?
+            // would be neat, I suppose.
+            if(chosenOperator != enumOperator.none) {
+                try {
+                    switch (chosenOperator)
+                    {
+                        case enumOperator.add:
+                            lastAnswer = firstNumber + secondNumber;
+                            break;
+                        case enumOperator.sub:
+                            lastAnswer = firstNumber - secondNumber;
+                            break;
+                        case enumOperator.multiply:
+                            lastAnswer = firstNumber * secondNumber;
+                            break;
+                        case enumOperator.divide:
+                            lastAnswer = firstNumber / secondNumber;
+                            break;
+                            // I'm really starting to get annoyed with a lot of stuff not having a decimal overload
+                            //    If anyone comlpains about "loss of precision", it'd like to know how working with exclusivly doubles
+                            //    is more precise
+                            //    Ok, it technically is because it prevents the mantise from changing during conversion.
+                        case enumOperator.power:
+                            lastAnswer = (decimal)Math.Pow((double)firstNumber, (double)secondNumber);
+                            break;
+                        case enumOperator.log:
+                            // not entirely sure if I want to do it in this order.
+                            lastAnswer = (decimal)Math.Log((double)secondNumber, (double)firstNumber);
+                            break;
+                        case enumOperator.root:
+                            // It's also a bit weird that Math root doesn't come with one that takes 2 parameters, but log did
+                            // Even the Witcher 2 isn't this incosistent.
+                            lastAnswer = (decimal)Math.Sqrt((double)firstNumber);
+                            break;
+                    }
+                }
+                catch (DivideByZeroException e)
                 {
-                    case enumOperator.add:
-                        lastAnswer = firstNumber + secondNumber;
-                        break;
-                    case enumOperator.sub:
-                        lastAnswer = firstNumber - secondNumber;
-                        break;
-                    case enumOperator.multiply:
-                        lastAnswer = firstNumber * secondNumber;
-                        break;
-                    case enumOperator.divide:
-                        lastAnswer = firstNumber / secondNumber;
-                        break;
+                    textBoxAnswer.Text = "Div/0!";
+                }
+                catch (OverflowException e)
+                {
+                    textBoxAnswer.Text = "Number's to big!";
                 }
             }
         }
+
+        private void radioEditNumber1_Clicked(object sender, MouseEventArgs e)
+        {
+            radioEditNumber1.Checked = true;
+            radioEditNumber2.Checked = false;
+            calcState = enumState.getFirstNumber;
+            firstNumber = 0;
+            updateText();
+        }
+
+        private void radioEditNumber2_Clicked(object sender, MouseEventArgs e)
+        {
+            radioEditNumber1.Checked = false;
+            radioEditNumber2.Checked = true;
+            calcState = enumState.getSecondNumber;
+            secondNumber = 0;
+            updateText();
+        }
+
     }
 }

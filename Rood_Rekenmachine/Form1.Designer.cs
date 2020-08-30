@@ -52,13 +52,19 @@
             this.textBoxAnswer = new System.Windows.Forms.TextBox();
             this.textBoxSecondNumber = new System.Windows.Forms.TextBox();
             this.textBoxOperator = new System.Windows.Forms.TextBox();
+            this.radioEditNumber1 = new System.Windows.Forms.RadioButton();
+            this.radioEditNumber2 = new System.Windows.Forms.RadioButton();
+            this.buttonRoot = new System.Windows.Forms.Button();
+            this.buttonPower = new System.Windows.Forms.Button();
+            this.buttonLog = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxFirstNumber
             // 
             this.textBoxFirstNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFirstNumber.Location = new System.Drawing.Point(43, 23);
+            this.textBoxFirstNumber.Location = new System.Drawing.Point(94, 25);
             this.textBoxFirstNumber.Name = "textBoxFirstNumber";
+            this.textBoxFirstNumber.ReadOnly = true;
             this.textBoxFirstNumber.Size = new System.Drawing.Size(238, 31);
             this.textBoxFirstNumber.TabIndex = 0;
             // 
@@ -164,7 +170,7 @@
             // buttonDiv
             // 
             this.buttonDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDiv.Location = new System.Drawing.Point(240, 237);
+            this.buttonDiv.Location = new System.Drawing.Point(207, 286);
             this.buttonDiv.Name = "buttonDiv";
             this.buttonDiv.Size = new System.Drawing.Size(43, 43);
             this.buttonDiv.TabIndex = 4;
@@ -175,7 +181,7 @@
             // buttonAdd
             // 
             this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAdd.Location = new System.Drawing.Point(240, 286);
+            this.buttonAdd.Location = new System.Drawing.Point(207, 237);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(43, 43);
             this.buttonAdd.TabIndex = 5;
@@ -186,7 +192,7 @@
             // buttonCalc
             // 
             this.buttonCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCalc.Location = new System.Drawing.Point(289, 335);
+            this.buttonCalc.Location = new System.Drawing.Point(273, 335);
             this.buttonCalc.Name = "buttonCalc";
             this.buttonCalc.Size = new System.Drawing.Size(43, 43);
             this.buttonCalc.TabIndex = 8;
@@ -219,7 +225,7 @@
             // buttonAns
             // 
             this.buttonAns.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAns.Location = new System.Drawing.Point(224, 335);
+            this.buttonAns.Location = new System.Drawing.Point(208, 335);
             this.buttonAns.Name = "buttonAns";
             this.buttonAns.Size = new System.Drawing.Size(59, 43);
             this.buttonAns.TabIndex = 11;
@@ -230,7 +236,7 @@
             // buttonSub
             // 
             this.buttonSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSub.Location = new System.Drawing.Point(289, 286);
+            this.buttonSub.Location = new System.Drawing.Point(256, 286);
             this.buttonSub.Name = "buttonSub";
             this.buttonSub.Size = new System.Drawing.Size(43, 43);
             this.buttonSub.TabIndex = 7;
@@ -241,7 +247,7 @@
             // buttonMult
             // 
             this.buttonMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMult.Location = new System.Drawing.Point(289, 237);
+            this.buttonMult.Location = new System.Drawing.Point(256, 237);
             this.buttonMult.Name = "buttonMult";
             this.buttonMult.Size = new System.Drawing.Size(43, 43);
             this.buttonMult.TabIndex = 6;
@@ -252,7 +258,7 @@
             // buttonClear
             // 
             this.buttonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonClear.Location = new System.Drawing.Point(256, 188);
+            this.buttonClear.Location = new System.Drawing.Point(273, 188);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(76, 43);
             this.buttonClear.TabIndex = 6;
@@ -263,7 +269,7 @@
             // buttonDel
             // 
             this.buttonDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDel.Location = new System.Drawing.Point(190, 188);
+            this.buttonDel.Location = new System.Drawing.Point(207, 188);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(60, 43);
             this.buttonDel.TabIndex = 12;
@@ -285,34 +291,97 @@
             // textBoxAnswer
             // 
             this.textBoxAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAnswer.Location = new System.Drawing.Point(43, 97);
+            this.textBoxAnswer.Location = new System.Drawing.Point(94, 99);
             this.textBoxAnswer.Name = "textBoxAnswer";
             this.textBoxAnswer.ReadOnly = true;
-            this.textBoxAnswer.Size = new System.Drawing.Size(121, 31);
+            this.textBoxAnswer.Size = new System.Drawing.Size(238, 31);
             this.textBoxAnswer.TabIndex = 13;
             // 
             // textBoxSecondNumber
             // 
             this.textBoxSecondNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSecondNumber.Location = new System.Drawing.Point(43, 60);
+            this.textBoxSecondNumber.Location = new System.Drawing.Point(94, 62);
             this.textBoxSecondNumber.Name = "textBoxSecondNumber";
+            this.textBoxSecondNumber.ReadOnly = true;
             this.textBoxSecondNumber.Size = new System.Drawing.Size(238, 31);
             this.textBoxSecondNumber.TabIndex = 14;
             // 
             // textBoxOperator
             // 
             this.textBoxOperator.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxOperator.Location = new System.Drawing.Point(289, 60);
+            this.textBoxOperator.Location = new System.Drawing.Point(340, 62);
             this.textBoxOperator.Name = "textBoxOperator";
             this.textBoxOperator.ReadOnly = true;
             this.textBoxOperator.Size = new System.Drawing.Size(43, 31);
             this.textBoxOperator.TabIndex = 14;
+            // 
+            // radioEditNumber1
+            // 
+            this.radioEditNumber1.AutoSize = true;
+            this.radioEditNumber1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioEditNumber1.Location = new System.Drawing.Point(63, 34);
+            this.radioEditNumber1.Name = "radioEditNumber1";
+            this.radioEditNumber1.Size = new System.Drawing.Size(14, 13);
+            this.radioEditNumber1.TabIndex = 15;
+            this.radioEditNumber1.TabStop = true;
+            this.radioEditNumber1.UseVisualStyleBackColor = true;
+            this.radioEditNumber1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.radioEditNumber1_Clicked);
+            // 
+            // radioEditNumber2
+            // 
+            this.radioEditNumber2.AutoSize = true;
+            this.radioEditNumber2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioEditNumber2.Location = new System.Drawing.Point(63, 71);
+            this.radioEditNumber2.Name = "radioEditNumber2";
+            this.radioEditNumber2.Size = new System.Drawing.Size(14, 13);
+            this.radioEditNumber2.TabIndex = 16;
+            this.radioEditNumber2.TabStop = true;
+            this.radioEditNumber2.UseVisualStyleBackColor = true;
+            this.radioEditNumber2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.radioEditNumber2_Clicked);
+            // 
+            // buttonRoot
+            // 
+            this.buttonRoot.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRoot.Location = new System.Drawing.Point(308, 286);
+            this.buttonRoot.Name = "buttonRoot";
+            this.buttonRoot.Size = new System.Drawing.Size(52, 43);
+            this.buttonRoot.TabIndex = 18;
+            this.buttonRoot.Text = "²√x";
+            this.buttonRoot.UseVisualStyleBackColor = true;
+            this.buttonRoot.Click += new System.EventHandler(this.buttonGeneric_Click);
+            // 
+            // buttonPower
+            // 
+            this.buttonPower.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPower.Location = new System.Drawing.Point(308, 237);
+            this.buttonPower.Name = "buttonPower";
+            this.buttonPower.Size = new System.Drawing.Size(43, 43);
+            this.buttonPower.TabIndex = 17;
+            this.buttonPower.Text = "^";
+            this.buttonPower.UseVisualStyleBackColor = true;
+            this.buttonPower.Click += new System.EventHandler(this.buttonGeneric_Click);
+            // 
+            // buttonLog
+            // 
+            this.buttonLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLog.Location = new System.Drawing.Point(357, 237);
+            this.buttonLog.Name = "buttonLog";
+            this.buttonLog.Size = new System.Drawing.Size(88, 43);
+            this.buttonLog.TabIndex = 20;
+            this.buttonLog.Text = "Logₓ(y)";
+            this.buttonLog.UseVisualStyleBackColor = true;
+            this.buttonLog.Click += new System.EventHandler(this.buttonGeneric_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 450);
+            this.Controls.Add(this.buttonLog);
+            this.Controls.Add(this.buttonRoot);
+            this.Controls.Add(this.buttonPower);
+            this.Controls.Add(this.radioEditNumber2);
+            this.Controls.Add(this.radioEditNumber1);
             this.Controls.Add(this.textBoxOperator);
             this.Controls.Add(this.textBoxSecondNumber);
             this.Controls.Add(this.textBoxAnswer);
@@ -370,6 +439,11 @@
         private System.Windows.Forms.TextBox textBoxAnswer;
         private System.Windows.Forms.TextBox textBoxSecondNumber;
         private System.Windows.Forms.TextBox textBoxOperator;
+        private System.Windows.Forms.RadioButton radioEditNumber1;
+        private System.Windows.Forms.RadioButton radioEditNumber2;
+        private System.Windows.Forms.Button buttonRoot;
+        private System.Windows.Forms.Button buttonPower;
+        private System.Windows.Forms.Button buttonLog;
     }
 }
 
