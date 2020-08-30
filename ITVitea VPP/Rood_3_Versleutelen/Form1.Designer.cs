@@ -28,94 +28,140 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.textBoxInputFileLoc = new System.Windows.Forms.TextBox();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonEncode = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxOutputFilename = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.buttonInputFileDialog = new System.Windows.Forms.Button();
+            this.buttonOutputFileDialog = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxInputFileLoc
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 85);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(231, 20);
-            this.textBox1.TabIndex = 0;
+            this.textBoxInputFileLoc.Location = new System.Drawing.Point(85, 37);
+            this.textBoxInputFileLoc.Name = "textBoxInputFileLoc";
+            this.textBoxInputFileLoc.Size = new System.Drawing.Size(622, 20);
+            this.textBoxInputFileLoc.TabIndex = 0;
+            this.textBoxInputFileLoc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // openFileDialog1
+            // openFileDialog
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog.FileName = "openFileDialog1";
+            this.openFileDialog.InitialDirectory = "\".\"";
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(101, 176);
+            this.progressBar1.Location = new System.Drawing.Point(85, 347);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(100, 23);
             this.progressBar1.TabIndex = 2;
             // 
-            // button1
+            // buttonEncode
             // 
-            this.button1.Location = new System.Drawing.Point(101, 130);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Encode";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonEncode.Location = new System.Drawing.Point(85, 301);
+            this.buttonEncode.Name = "buttonEncode";
+            this.buttonEncode.Size = new System.Drawing.Size(75, 23);
+            this.buttonEncode.TabIndex = 3;
+            this.buttonEncode.Text = "Encode";
+            this.buttonEncode.UseVisualStyleBackColor = true;
+            this.buttonEncode.Click += new System.EventHandler(this.buttonEncode_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(182, 130);
+            this.button2.Location = new System.Drawing.Point(166, 301);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
             this.button2.Text = "Decode";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.buttonDecode_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(101, 53);
+            this.label1.Location = new System.Drawing.Point(82, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Input File Location";
             // 
-            // textBox2
+            // textBoxOutputFilename
             // 
-            this.textBox2.Location = new System.Drawing.Point(374, 85);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(231, 20);
-            this.textBox2.TabIndex = 0;
+            this.textBoxOutputFilename.Location = new System.Drawing.Point(85, 126);
+            this.textBoxOutputFilename.Name = "textBoxOutputFilename";
+            this.textBoxOutputFilename.Size = new System.Drawing.Size(622, 20);
+            this.textBoxOutputFilename.TabIndex = 0;
+            this.textBoxOutputFilename.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(374, 53);
+            this.label2.Location = new System.Drawing.Point(82, 110);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Output Filename";
+            // 
+            // textBoxPassword
+            // 
+            this.textBoxPassword.Location = new System.Drawing.Point(85, 223);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(173, 20);
+            this.textBoxPassword.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(82, 207);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Password";
+            // 
+            // buttonInputFileDialog
+            // 
+            this.buttonInputFileDialog.Location = new System.Drawing.Point(85, 63);
+            this.buttonInputFileDialog.Name = "buttonInputFileDialog";
+            this.buttonInputFileDialog.Size = new System.Drawing.Size(75, 23);
+            this.buttonInputFileDialog.TabIndex = 5;
+            this.buttonInputFileDialog.Text = "Browse";
+            this.buttonInputFileDialog.UseVisualStyleBackColor = true;
+            this.buttonInputFileDialog.Click += new System.EventHandler(this.buttonInputFileDialog_Click);
+            // 
+            // buttonOutputFileDialog
+            // 
+            this.buttonOutputFileDialog.Location = new System.Drawing.Point(85, 157);
+            this.buttonOutputFileDialog.Name = "buttonOutputFileDialog";
+            this.buttonOutputFileDialog.Size = new System.Drawing.Size(75, 23);
+            this.buttonOutputFileDialog.TabIndex = 5;
+            this.buttonOutputFileDialog.Text = "Browse";
+            this.buttonOutputFileDialog.UseVisualStyleBackColor = true;
+            this.buttonOutputFileDialog.Click += new System.EventHandler(this.buttonOutputFileDialog_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonOutputFileDialog);
+            this.Controls.Add(this.buttonInputFileDialog);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.buttonEncode);
+            this.Controls.Add(this.textBoxOutputFilename);
+            this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxInputFileLoc);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,14 +169,18 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.TextBox textBoxInputFileLoc;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonEncode;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxOutputFilename;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBoxPassword;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button buttonInputFileDialog;
+        private System.Windows.Forms.Button buttonOutputFileDialog;
     }
 }
 
