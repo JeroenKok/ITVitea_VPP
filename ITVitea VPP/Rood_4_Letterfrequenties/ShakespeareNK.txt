@@ -1,0 +1,828 @@
+Dette er den 100te Etext-filen presentert av Project Gutenberg, og
+presenteres i samarbeid med World Library, Inc., fra deres
+Fremtidens bibliotek og Shakespeare CDROMS. Prosjekt Gutenberg
+slipper ofte Etexter som IKKE er plassert i Public Domain !!
+
+Shakespeare
+
+* Denne teksten har visse implikasjoner for opphavsrett du bør lese! *
+
+<< DENNE ELEKTRONISKE VERSJONEN AV DE komplette arbeidene i WILLIAM
+SHAKESPEARE ER COPYRIGHT 1990-1993 AV WORLD LIBRARY, INC., AND IS
+LEVERT AV PROSJEKT GUTENBERG ETEXT OF ILLINOIS BENEDICTINE COLLEGE
+MED TILLATELSE. ELEKTRONISKE OG MASKINLESbare KOPIER KAN VÆRE
+DISTRIBUTERT SÅ LANGE SÅ SOM KOPIER (1) ER FOR DIN ELLER ANDRE
+KUN PERSONLIG BRUK, OG (2) ER IKKE DISTRIBUTERT ELLER BRUKT
+KOMMERSIELL. FORBUDT KOMMERSIELL FORDELING INKLUDERER AV ALLE
+TJENESTE SOM LADER FOR NEDLADNINGSTID ELLER FOR MEDLEMSKAP. >>
+
+* Project Gutenberg er stolt av å samarbeide med Verdensbiblioteket *
+i presentasjonen av The Complete Works of William Shakespeare
+for lesingen din for utdanning og underholdning. DETTE
+ER IKKE AKSJEHELD ELLER OFFENTLIG DOMAIN. . .EN UNDER BIBLIOTEKET
+AV FREMTIDENDE BETINGELSER FOR DENNE PRESENTASJONEN. . INGEN LADDING KAN
+BLI LAGT FOR * NOEN * ADGANG TIL DETTE MATERIALET. DU ER OPPMØRKET !!
+Å gi det bort til noen du liker, men ingen gebyrer er tillatt !!
+
+
+** Velkommen til verden av gratis vanlige elektroniske tekster **
+
+** Etexter lesbar av både mennesker og datamaskiner, siden 1971 **
+
+* Disse tekstene utarbeidet av hundrevis av frivillige og donasjoner *
+
+Informasjon om å kontakte Project Gutenberg for å få Etexts, og
+ytterligere informasjon er inkludert nedenfor. Vi trenger donasjonene dine.
+
+
+The Complete Works of William Shakespeare
+
+Januar 1994 [Etext # 100]
+
+
+The Future of the Future Complete Works av William Shakespeare
+Fremtidens bibliotek er et varemerke (TM) fra World Library Inc.
+****** Denne filen skal hete shaks12.txt eller shaks12.zip *****
+
+Korrigerte UTGAVER av eteksene våre får et nytt ANTALL, shaks13.txt
+VERSJONER basert på separate kilder får nytt BREV, shaks10a.txt
+
+Hvis du ønsker ytterligere informasjon om World Library, Inc.
+Ring dem på 1-800-443-0238 eller mail julianc@netcom.com
+Vennligst gi dem vår takk for deres Shakespeare-samarbeid!
+
+
+Den offisielle utgivelsesdatoen for alle Project Gutenberg Etexts er kl
+Midnatt, sentral tid, den siste dagen i den oppgitte måneden. en
+foreløpig versjon kan ofte legges ut for forslag, kommentar
+og redigering av de som ønsker det. For å være sikker på at du har en
+oppdatert første utgave [xxxxx10x.xxx] vennligst sjekk filstørrelser
+i den første uken i neste måned. Siden ftp-programmet vårt har
+en feil i den som krypterer datoen [prøvde å fikse og mislyktes] a
+se på filstørrelsen må gjøre, men vi vil prøve å se en
+ny kopi har minst en byte mer eller mindre.
+
+
+Informasjon om Project Gutenberg (en side)
+
+Vi produserer omtrent to millioner dollar for hver time vi jobber. De
+femti timer er et konservativt estimat for hvor lang tid det tar
+for å få et hvilket som helst tekst valgt, skrevet inn, korrekturlest, redigert, copyright
+søkt og analysert, opphavsrettsbrev skrevet osv. Dette
+anslått publikum er hundre millioner lesere. Hvis verdien vår
+per tekst er nominelt estimert til en dollar, så produserer vi 2
+millioner dollar i timen i år må vi gjøre fire tekst
+filer per måned: og dermed øke produktiviteten fra en million.
+Målet med Project Gutenberg er å gi bort en billion billioner
+Filer innen 31. desember 2001. [10.000 x 100.000.000 = billioner]
+Dette er ti tusen titler hver til hundre millioner lesere,
+som er 10% av forventet antall databrukere innen utgangen
+av året 2001.
+
+Vi trenger donasjonene dine mer enn noen gang!
+
+Alle donasjoner skal gis til "Project Gutenberg / IBC", og er
+skattemessig fradragsberettiget i den grad loven tillater det ("IBC" er Illinois
+Benedictine College). (Abonnement på vårt papir nyhetsbrev går
+til IBC, også)
+
+For disse og andre forhold, vennligst mail til:
+
+Prosjekt Gutenberg
+P. O. Box 2782
+Champaign, IL 61825
+
+Når all annen e-post mislykkes, prøv vår Michael S. Hart, administrerende direktør:
+hart@vmd.cso.uiuc.edu (internett) hart @ uiucvmd (bitnet)
+
+Vi foretrekker å sende deg denne informasjonen via e-post
+(Internett, Bitnet, Compuserve, ATTMAIL eller MCImail).
+
+******
+Hvis du har et FTP-program (eller emulator), vær så snill
+FTP direkte til Project Gutenberg-arkivene:
+[Mac-brukere, ikke pek og klikk. . .type]
+
+ftp mrcnext.cso.uiuc.edu
+pålogging: anonym
+passord: din @ pålogging
+cd etext / etext91
+eller cd etext92
+eller cd etext93 [for nye bøker] [nå også i cd etext / etext93]
+eller cd-tekst / artikler [få forslag til tarm for mer informasjon]
+dir [å se filer]
+få eller mget [for å hente filer. . .sett bin for zip-filer]
+FÅ 0INDEX.GUT
+for en liste over bøker
+og
+FÅ NY GUT for generell informasjon
+og
+MGET GUT * for nyhetsbrev.
+
+** Informasjon utarbeidet av Project Gutenberg juridiske rådgiver **
+
+
+***** LITEN SKRIFT! for KOMPLETT SHAKESPEARE *****
+
+DENNE ELEKTRONISKE VERSJONEN AV DE KOMPLETTE VERKENE I WILLIAM
+SHAKESPEARE ER COPYRIGHT 1990-1993 AV WORLD LIBRARY, INC.,
+OG LEVERES AV PROSJEKT GUTENBERG HELE AV
+ILLINOIS BENEDICTINE COLLEGE MED TILLATELSE.
+
+Siden i motsetning til mange andre Project Gutenberg-tm etekster, er denne teksten
+er beskyttet av copyright, og siden materialene og metodene du
+bruk vil påvirke prosjektets omdømme, din rett til å kopiere og
+distribuere det er begrenset av copyright og andre lover, og av
+betingelsene for denne "Små trykk!" uttalelse.
+
+1. LISENS
+
+  A) DU KAN (OG ER OPPMOTTET) TIL Å FORDELE ELEKTRONISK OG
+MASKINLESbare KOPIER AV DENNE EKSTEN, SÅ LANG SOM SÅ KOPIER
+(1) ER KUN FOR DINE ELLER ANDRE PERSONLIG BRUK, OG (2) ER IKKE
+Distribuert eller brukt kommersielt. FORBUDT KOMMERSJON
+DISTRIBUSJON INKLUDERER AV TJENESTE TJENESTER SOM KOSTER FOR NEDLASTING
+TID ELLER FOR MEDLEMSKAP.
+
+  B) Denne lisensen er underlagt betingelsene du overholder
+tilbakebetalings- og erstatningsbestemmelsene til denne "liten skrift!"
+uttalelse; og at du distribuerer eksakte kopier av denne teksten,
+inkludert denne Small Print-uttalelsen. Slike kopier kan være
+komprimert eller hvilken som helst proprietær form (inkludert hvilken som helst form som resulterer
+fra tekstbehandling eller hypertekstprogramvare), så lenge
+* ENTEN *:
+
+    (1) Etekst, når det vises, er tydelig lesbar og gjør det
+  * ikke * inneholder andre tegn enn de som er ment av
+  forfatter av verket, selv om tilde (~), stjerne (*) og
+  understreking (_) tegn kan brukes til å formidle tegnsetting
+  ment av forfatteren, og flere tegn kan brukes
+  for å indikere hypertekstlenker; ELLER
+
+    (2) Teksten kan lett konverteres av leseren på nr
+  utgift til vanlig ASCII, EBCDIC eller tilsvarende form av
+  program som viser tekst (som tilfellet er, for eksempel
+  med de fleste tekstbehandlere); ELLER
+
+    (3) Du gir eller godtar å gi på forespørsel nr
+  merkostnad, gebyr eller kostnad, en kopi av tekst i vanlig
+  ASCII.
+
+2. BEGRENSET GARANTI; ANSVARSFRASKRIVELSE AV SKADER
+
+Denne teksten kan inneholde en "Defekt" i form av ufullstendig,
+unøyaktige eller korrupte data, transkripsjonsfeil, copyright eller
+annen krenkelse, en mangelfull eller skadet disk, datavirus,
+eller koder som skader eller ikke kan leses av utstyret ditt. Men
+for "Rett til erstatning eller refusjon" beskrevet nedenfor,
+Prosjekt (og enhver annen part du kan motta denne teksten fra som
+a PROJECT GUTENBERG-tm etext) fraskriver seg alt ansvar for deg for
+skader, kostnader og utgifter, inkludert advokatkostnader, og DU HAR
+INGEN RETTSMIDLER FOR UTLØSIGHET ELLER UNDER STRENGT ANSVAR, ELLER FOR
+GARANTI- ELLER KONTRAKTBREKK, INKLUDERT MEN IKKE BEGRENSET TIL
+INDIREKTE, FOLGENDE, PUNITIVE ELLER TILFELDIGE SKADER, SELV OM
+DU VAR ​​MEDDELELSE OM MULIGHETEN SOM SKADER.
+
+Hvis du oppdager en mangel i dette formatet innen 90 dager etter mottakelse-
+kan du motta en tilbakebetaling av pengene (hvis noen) du betalte
+for det ved å sende en forklarende merknad innen den tiden til
+personen du mottok den fra. Hvis du mottok det på en fysisk
+medium, må du returnere det med notatet ditt, og slik person kan
+velg alternativt å gi deg en erstatningskopi. Hvis du
+mottatt det elektronisk, kan en slik person velge å
+alternativt gi deg en ny mulighet til å motta den
+elektronisk.
+
+DENNE ETEXT LEVES ellers til DEG "SOM DET ER". INGEN ANNEN
+GARANTIER FOR NOE SLAG, UTTRYKKET ELLER UNDERFORSTÅTT, LAGES TIL DEG SOM
+TIL HØYDE ELLER NOEN MEDIUM KAN DET KAN VÆRE PÅ, INKLUDERT MEN IKKE
+BEGRENSET TIL GARANTIER FOR SALGBARHET ELLER EGNETHET FOR A
+SPESIELL GRUNN. Noen stater tillater ikke ansvarsfraskrivelse av
+underforståtte garantier eller utelukkelse eller begrensning av konsekvenser
+tialskader, så de ovennevnte ansvarsfraskrivelsene og unntakene er ikke sikkert
+gjelder for deg, og du kan ha andre juridiske rettigheter.
+
+3. SKADELSE: Du vil skadesløsgjøre og holde prosjektet, dets
+styremedlemmer, offiserer, medlemmer og agenter som er ufarlige fra alle kontakter
+bility, kostnad og kostnad, inkludert advokatsalær, som oppstår
+direkte eller indirekte fra noe av det følgende du gjør eller
+årsak: [A] distribusjon av denne tekst, [B] endring,
+modifisering, eller tillegg til etekst, eller [C] en hvilken som helst mangel.
+
+4. HVA HVIS DU * VIL * sende penger selv om du ikke trenger å gjøre det?
+Prosjekt Gutenberg er dedikert til å øke antall
+offentlig domene og lisensierte verk som kan distribueres fritt
+i maskinlesbar form. Prosjektet aksepterer takknemlig
+bidrag i penger, tid, skannemaskiner, OCR-programvare,
+offentlighetsextekster, royaltyfrie opphavsrettslisenser og
+hva annet du kan tenke på. Penger skal betales til "Pro-
+ject Gutenberg Association / Illinois Benedictine College ".
+
+SKRIV TIL OSS! Vi kan nås på:
+     Internett: hart@vmd.cso.uiuc.edu
+       Bitnet: hart @ uiucvmd
+   CompuServe:> internett: hart @ .vmd.cso.uiuc.edu
+      Attmail: internett! Vmd.cso.uiuc.edu! Hjerte
+        Post: Prof. Michael Hart
+               P.O. Boks 2782
+               Champaign, IL 61825
+
+Dette "Små trykk!" av Charles B. Kramer, advokat
+Internett (72600.2026@compuserve.com); TEL: (212-254-5093)
+**** LITEN SKRIFT! FOR __ KOMPLETT SHAKESPEARE ****
+["Små skrift" V.12.08.93]
+
+<< DENNE ELEKTRONISKE VERSJONEN AV DE komplette arbeidene i WILLIAM
+SHAKESPEARE ER OPPHAVSRETT 1990-1993 AV VERDENSBibliotek, INC., OG ER
+LEVERES AV PROSJEKT GUTENBERG ETEXT OF ILLINOIS BENEDICTINE COLLEGE
+MED TILLATELSE. ELEKTRONISKE OG MASKINEN LESENDE KOPIER KAN VÆRE
+FORDELT SÅ LANG SOM SÅ KOPIER (1) ER FOR DINE ELLER ANDRE
+KUN PERSONLIG BRUK, OG (2) FORDELES IKKE ELLER BRUKES
+KOMMERSIELL. FORBUDT KOMMERSIELL FORDELING INKLUDERER AV ALLE
+TJENESTE SOM LADER FOR NEDLADNINGSTID ELLER FOR MEDLEMSKAP. >>
+
+
+1609
+
+SONNETS
+
+av William Shakespeare
+
+
+
+                     1
+  Fra de vakreste skapninger vi ønsker å øke,
+  At skjønnhetens rose kanskje aldri vil dø,
+  Men som riper etterhvert skulle gå over,
+  Hans ømme arving kan bære hans minne:
+  Men du gikk sammen med dine egne lyse øyne,
+  Gi lysets flamme mat med drivstoff,
+  Gjør hungersnød der overflod ligger,
+  Din egen fiende, for ditt søte jeg for grusom.
+  Du som nå er verdens ferske ornament,
+  Og bare innvarsler til den glorete våren,
+  Innenfor din egen knopp begraver du innholdet ditt,
+  Og øm churl kaster bort i fiffende:
+    Synd for verden, ellers er denne fråtseren,
+    Å spise verdens skyld, ved graven og deg.
+
+
+                     2
+  Når førti vintre skal beleire din panne,
+  Og grave dype skyttergraver i din skjønnhets felt,
+  Din ungdoms stolte levery så så på nå,
+  Vil være en ødelagt ugress av lite verdt:
+  Da blir du spurt om hvor all skjønnheten din ligger,
+  Hvor all skatten på dine lystige dager;
+  Å si innenfor dine egne dype sunkne øyne,
+  Var en spisende skam og sparsommelig ros.
+  Hvor mye mer ros fortjente din skjønnhets bruk,
+  Hvis du kunne svare 'Dette fine barnet mitt
+  Skal oppsummere tellingen min og gjøre min gamle unnskyldning '
+  Beviser hans skjønnhet etter arv din.
+    Dette skulle bli nytt når du er gammel,
+    Og se blodet ditt bli varmt når du føler at det er kaldt.
+
+
+                     3
+  Se i glasset ditt og fortell det ansiktet du ser,
+  Det er nå tiden ansiktet skal danne en annen,
+  Hvis ferske reparasjon hvis du ikke forny deg,
+  Du forførte verden, mishandlet noen mor.
+  For hvor er hun så rettferdig, hvis ufødte livmor
+  Forakter jordbearbeidingen din?
+  Eller hvem er han så glad i å være graven,
+  Eller hans egenkjærlighet for å stoppe ettertiden?
+  Du er morens glass og hun i deg
+  Ringer tilbake den herlige april i hennes beste alder,
+  Så skal du se gjennom vinduer på din tid,
+  Til tross for rynker er dette din gyldne tid.
+    Men hvis du lever husket du ikke skal være det,
+    Dø enkelt og ditt bilde dør med deg.
+
+
+                     4
+  Uspennende skjønnhet hvorfor bruker du,
+  På deg selv din skjønnhet arv?
+  Naturens dyr gir ingenting annet enn å låne ut,
+  Og å være ærlig låner hun ut til de er gratis:
+  Så vakker niggard hvorfor misbruker du,
+  Den sprudlende storheten du har gitt deg å gi?
+  Lønnsom bruker hvorfor bruker du
+  Så stor sum av summer ennå ikke kan leve?
+  For å ha trafikk med deg selv alene,
+  Du av deg selv, ditt søte jeg bedrar,
+  Så hvordan når naturen kaller deg for å være borte,
+  Hvilken akseptabel revisjon kan du forlate?
+    Din ubrukt skjønnhet må gravlegges med deg,
+    Som brukte livets eksekutor å være.
+
+
+                     5
+  De timene som med forsiktig arbeid rammet inn
+  Det herlige blikket der hvert øye bor
+  Vil spille tyranner til det samme,
+  Og det urettferdige som ganske bra utmerker seg:
+  For hviletid fører sommeren videre
+  For grusom vinter og forvirrer ham der,
+  Sap sjekket med frost og glødende blader ganske borte,
+  Skjønnhet over snødekte og barhet overalt:
+  Da var ikke sommerens destillasjon igjen
+  En flytende fange pent i glassvegger,
+  Skjønnhetens effekt med skjønnhet var berøvet,
+  Heller ikke det eller noen minne om hva det var.
+    Men blomster destilleres selv om de med vinteren møtes,
+    Leese men showet deres, stoffet deres lever fortsatt søtt.
+
+
+                     6
+  Ikke la vinterens fillete hånden triste,
+  I deg blir din sommer før destillert:
+  Gjør søtt litt hetteglass; skatt deg et sted,
+  Med skjønnhetens skatt er det å bli drept av seg selv:
+  Den bruken er ikke forbudt åger,
+  Som gleder de som betaler villig lån;
+  Det er for deg selv å avle en annen deg,
+  Eller ti ganger lykkeligere være det ti for en,
+  Ti ganger var jeg selv lykkeligere enn du er,
+  Hvis ti av dine ti ganger refiggerte te:
+  Hva kan da døden gjøre hvis du drar,
+  Å la te le i ettertiden?
+    Vær ikke egenrådig, for du er altfor rettferdig,
+    Å være dødens erobring og gjøre ormer til din arving.
+
+
+                     7
+  Gå i orienteringen når det nådige lyset
+  Løfter sitt brennende hode, hver under øyet
+  Gjør en hyllest til hans nyopptrådende syn,
+  Å tjene med ser sin hellige majestet ut,
+  Og etter å ha klatret opp den bratte, himmelske høyden,
+  Ligner sterk ungdom i middelalderen,
+  Likevel elsker dødelig utseende fortsatt sin skjønnhet,
+  Delta på den gylne pilegrimsreisen sin:
+  Men når fra høyeste tonehøyde med sliten bil,
+  Som en svak alder spoler han fra dagen,
+  Øynene (i første omgang) som nå er omvendt, er
+  Fra hans lave kanal og se på en annen måte:
+    Så du selv går ut på middagstid:
+    Ikke sett på diest med mindre du får en sønn.
+
+
+                     8
+  Musikk å høre, hvorfor hører du trist?
+  Søtsaker med søtsaker kriger ikke, glede gleder i glede:
+  Hvorfor elsker du det du ikke mottar, med glede,
+  Eller mottar du med glede din irritasjon?
+  Hvis den virkelige samstemmigheten med godt innstilte lyder,
+  Gjør forbund som er gift, fornærme øret ditt,
+  De gjør bare søtt deg, som forvirrer
+  I ensomhet skal du dele:
+  Merk hvordan en streng søt mann til en annen,
+  Slår hver i hver ved gjensidig bestilling;
+  Ligner far, barn og lykkelig mor,
+  Hvem alt i ett, et behagelig notat synger:
+    Hvis målløse sang er mange, tilsynelatende,
+    Synger dette for deg, 'Du vil ikke bevise noen'.
+
+
+                     9
+  Er det av frykt å fukte enkeens øye,
+  At du bruker deg selv i et enkelt liv?
+  Ah, hvis du er uten lønn, må du dø,
+  Verden skal gråte deg som en makløs kone,
+  Verden skal være din enke og fortsatt gråte,
+  At du ikke har etterlatt deg noen form,
+  Når hver eneste enkebrønn kan beholde,
+  Ved barnas øyne husker ektemannens form:
+  Se hva en unthrift i verden bruker
+  Skifter men hans sted, for fremdeles nyter verden det;
+  Men skjønnhetens avfall har en slutt på verden,
+  Og holdes ubrukt brukeren så ødelegger det:
+    Ingen kjærlighet til andre i den brystet sitter
+    At på seg selv en slik morderisk skam begår.
+
+
+                     10
+  For skam benekt at du bærer kjærlighet til noen
+  Som for deg selv er så uprovident.
+  Gi om du vil, du er elsket av mange,
+  Men at du ingen elsker er tydeligst:
+  For du er så besatt av uekte hat,
+  Det som "vinner deg selv", holder du ikke til å konspirere,
+  Søker det vakre taket for å ødelegge
+  Som å reparere, bør være ditt viktigste ønske:
+  Forandre tanken din, så jeg kan ombestemme meg,
+  Skal hat være mer rettferdig enn mild kjærlighet?
+  Vær som din tilstedeværelse er nådig og vennlig,
+  Eller for å bevise deg selv i det minste godhjertet,
+    Gjør deg til et annet selv for kjærlighet til meg,
+    Den skjønnheten kan fortsatt leve i deg eller deg.
+
+
+                     11
+  Så fort du vil avta så fort du vokser,
+  I en av dine, fra det du går bort fra,
+  Og det friske blodet som du tildeler,
+  Du kan kalle deg når du fra ungdom omvender deg,
+  Her lever visdom, skjønnhet og økning,
+  Uten denne dårskapen, alderen og det kalde forfallet,
+  Hvis alle hadde tenkt det, skulle tidene opphøre,
+  Og seksti år ville gjøre verden borte:
+  La dem som naturen ikke har laget for å lagre,
+  Tøff, uanstendig og uhøflig, uforgjengelig omkommer:
+  Se hvem hun best ga, hun ga deg mer;
+  Hvilken gavmild gave du bør være verdsatt for:
+    Hun skåret deg for sin segl, og mente med det,
+    Du bør skrive ut mer, ikke la det kopiere det.
+
+
+                     12
+  Når jeg teller klokken som forteller klokka,
+  Og se den modige dagen senket i en fryktelig natt,
+  Når jeg ser fiolett forbi prime,
+  Og sable krøller alt sølvfarget med hvitt:
+  Når høye trær ser jeg karrige blader,
+  Som erstattet av varmen baldaket flokken
+  Og sommerens grønne alt omkranset av skiver
+  Båret på bier med hvitt og børstet skjegg:
+  Så av din skjønnhet stiller jeg spørsmål
+  At du blant tidens sløsing må gå,
+  Siden søtsaker og skjønnheter forlater seg selv,
+  Og dø så fort de ser andre vokse,
+    Og ingenting gevinst av Time's le kan gjøre forsvar
+    Redd rasen for å modige ham, når han tar deg derfra.
+
+
+                     1. 3
+  O at du var deg selv, men elsker deg
+  Ikke lenger din, enn du selv her bor,
+  Mot denne kommende slutten bør du forberede deg,
+  Og din søte glans til noen andre gir.
+  Det burde også være den skjønnheten du holder på
+  Finn ingen besluttsomhet, da var du
+  Ditt selv igjen etter at jeg er død,
+  Når det søte problemet ditt, skal din søte form bære.
+  Hvem lar et så rettferdig hus falle til forfall,
+  Hvilket eierskap til ære kan opprettholde,
+  Mot de stormfulle vindkastene på vinterdagen
+  Og karrig raseri av dødens evige kulde?
+    O ingen, men unthrifts, kjære min kjære du vet,
+    Du hadde en far, la sønnen din si det.
+
+
+                     14
+  Ikke fra stjernene plukker jeg min dom,
+  Og likevel tenker jeg at jeg har astronomi,
+  Men ikke for å fortelle om god eller ond lykke,
+  Eller plager, mangler eller årstiders kvalitet,
+  Jeg kan heller ikke være så heldig at korte minutter forteller;
+  Peker på hver sin torden, regn og vind,
+  Eller si med fyrster om det skal gå bra
+  Ved å ofte forutsi at jeg finner i himmelen.
+  Men fra dine øyne får jeg kunnskapen min,
+  Og konstante stjerner i dem jeg leste slik kunst
+  Som sannhet og skjønnhet sammen skal trives
+  Hvis du fra deg selv vil lagre konvertering:
+    Ellers av deg prognoser jeg,
+    Din slutt er sannhetens og skjønnhetens undergang og dato.
+
+
+                     15
+  Når jeg vurderer alle ting som vokser
+  Holder i perfeksjon men et lite øyeblikk.
+  At denne enorme scenen aldri presenterer men viser
+  Stjernene i hemmelig innflytelse kommenterer.
+  Når jeg oppfatter at menn som planter øker,
+  Jublet og sjekket til og med av den samme himmelen:
+  Vaunt i sin ungdommelige juice, i høyden redusere,
+  Og bruk deres modige tilstand uten minne.
+  Så innbilingen av dette ukonstant oppholdet,
+  Setter deg mest rik på ungdom før jeg ser,
+  Hvor bortkastet tid debatterer med forfall
+  For å endre dagen fra ungdom til søvn natt,
+    Og alt i krig med Time for love of you,
+    Når han tar fra deg, engasjerer jeg deg ny.
+
+
+                     16
+  Men derfor gjør du ikke en mektigere måte
+  Ta krig mot denne blodige tyrannstiden?
+  Og befest deg selv i ditt forfall
+  Med midler mer velsignet enn det karrige rimet mitt?
+  Nå står du på toppen av lykkelige timer,
+  Og mange jomfruhager som ennå ikke er brukt,
+  Med dydig ønske vil bære deg levende blomster,
+  Mye liker enn din malte forfalskning:
+  Så burde livslinjene som livet repareres
+  Hvilken dette (tidens blyant) eller elevpennen min
+  Verken i indre verdi eller utvendig rettferdig
+  Kan få deg til å leve deg selv i menns øyne.
+    For å gi bort deg selv, holder deg selv stille,
+    Og du må leve tegnet av din egen søte dyktighet.
+
+
+                     17
+  Hvem vil tro på verset mitt i tiden som kommer
+  Hvis det var fylt med dine mest høye ørkener?
+  Selv om himmelen likevel vet at den bare er som en grav
+  Som skjuler livet ditt og ikke viser halvparten av delene dine:
+  Hvis jeg kunne skrive skjønnheten i øynene dine,
+  Og i friske tall nummer alle dine nåde,
+  Alderen framover vil si at denne dikteren lyver,
+  Slike himmelske berører ikke berørte jordiske ansikter.
+  Så skulle papirene mine (gulnes med alderen)
+  Vær hånlig, som gamle menn med mindre sannhet enn tunge,
+  Og dine sanne rettigheter blir betegnet som en dikteres raseri,
+  Og strukket meter av en antikk sang.
+    Men var et barn av deg i live den gangen,
+    Du skal leve to ganger i det, og i rimet mitt.
+
+
+                     18
+  Skal jeg sammenligne deg med en sommerdag?
+  Du er vakrere og mer temperert:
+  Grov vind rister de kjære knoppene i mai,
+  Og sommerens leieavtale har en altfor kort dato:
+  En gang for varmt skinner himmeløyet,
+  Og ofte er gullfargen hans nedtonet,
+  Og hver fair fra fair noen avtar,
+  Ved en tilfeldighet, eller naturens skiftende kurs ubeskåret:
+  Men din evige sommer skal ikke falme,
+  Du mister heller ikke den messen du eier,
+  Du skal heller ikke skryte av at du vandrer i skyggen hans,
+  Når du vokser i evige linjer til tid,
+    Så lenge menn kan puste eller øynene kan se,
+    Så lenge lever dette, og dette gir deg liv.
+
+
+                     19
+  Slukende tid sløv du løvenes poter,
+  Og få jorden til å sluke sitt eget søte brød,
+  Plukk de skarpe tennene fra den voldsomme tigerens kjever,
+  Og brenn den langvarige feniks, i blodet hennes,
+  Gjør jevne og lei årstider mens du er flåte,
+  Og gjør det du vil ha en rask føttetid
+  Til den store verden og alle hennes falmende søtsaker:
+  Men jeg forbyr deg en mest avskyelig forbrytelse,
+  O skjær ikke med dine timer min kjærlighets panne,
+  Heller ikke tegne noen streker der med din antikke penn,
+  Han tillater i ditt løp ubesmittet,
+  For skjønnhetens mønster til etterfølgende menn.
+    Likevel gjør din verste gamle tid: til tross for din galt,
+    Min kjærlighet skal i mitt vers noensinne leve ung.
+
+
+                     20
+  Et kvinnes ansikt med naturens egen håndmalte,
+  Har du min elskerinne av min lidenskap,
+  En kvinnes milde hjerte, men ikke kjent
+  Med skiftende forandring som falsk kvinnemote,
+  Et øye som er lysere enn deres, mindre falsk i rullingen:
+  Forgylle gjenstanden hvorpå den stirrer,
+  En mann i fargetone alle fargetoner i hans kontrollerende,
+  Som stjeler menns øyne og kvinnesjeler forbløffer.
+  Og for en kvinne var du først skapt,
+  Inntil naturen mens hun utførte deg, ble en prikk,
+  Og ved å beseire meg av deg,
+  Ved å legge en ting til mitt formål ingenting.
+    Men siden hun stakk deg ut for kvinners glede,
+    Min være din kjærlighet og din kjærlighet bruker deres skatt.
+
+
+                     21
+  Så det er ikke med meg som med den musa,
+  Rørt av en malt skjønnhet til verset hans,
+  Hvem himmelen det selv for ornament gjør bruk,
+  Og hver messe med sin rettferdige øving,
+  Gjør en kobling av stolt sammenligning
+  Med sol og måne, med jord og havs rike perler:
+  Med Aprils førstefødte blomster og alle sjeldne ting,
+  Den himmelske luften i denne enorme runden hems.
+  O la meg være forelsket, men virkelig skrive,
+  Og så tro meg, kjærligheten min er like rettferdig,
+  Som ethvert mors barn, men ikke så lyse
+  Som de gulllysene festet i himmelens luft:
+    La dem si mer som om å høre godt,
+    Jeg vil ikke berømme det formålet ikke å selge.
+
+
+                     22
+  Mitt glass skal ikke overtale meg om at jeg er gammel,
+  Så lenge ungdommen og du er på en date,
+  Men når du ser tidens furer,
+  Så se jeg døden mine dager skal utløpe.
+  For all den skjønnheten som skjuler deg,
+  Er bare hjertets tilsynelatende klær,
+  Som lever i ditt bryst, som ditt i meg,
+  Hvordan kan jeg da være eldre enn du er?
+  O derfor kjærlighet være av deg selv så forsiktig,
+  Som jeg ikke for meg selv, men for deg vil,
+  Å bære hjertet ditt som jeg vil holde det så lystig
+  Som ømt sykepleier hennes baby fra å bli syk.
+    Gå ikke an på hjertet ditt når mitt er drept,
+    Du ga meg din å ikke gi tilbake igjen.
+
+
+                     23
+  Som en ufullkommen skuespiller på scenen,
+  Som med sin frykt blir satt ved siden av sin del,
+  Eller noe voldsomt fylt med for mye raseri,
+  Hans styrkes overflod svekker hans eget hjerte;
+  Så jeg av frykt for tillit, glemmer å si,
+  Den perfekte seremonien med kjærlighetsritual,
+  Og i min egen kjærlighets styrke ser det ut til å forfalne,
+  Ocharcharged med burthen av min egen kjærlighets makt:
+  La mine blikk være da veltalenhet,
+  Og stumme presidere av mitt talende bryst,
+  Som ber om kjærlighet og ser etter belønning,
+  Mer enn den tungen som mer har mer uttrykt.
+    O lær deg å lese hva taus kjærlighet har skrevet,
+    Å høre med øynene tilhører kjærlighetens fine hvite.
+
+
+                     24
+  Mitt øye har spilt maleren og stjålet,
+  Din skjønnhets form i hjertets tabell,
+  Kroppen min er rammen der 't er helt,
+  Og perspektiv er det beste malerkunst.
+  For gjennom maleren må du se hans dyktighet,
+  For å finne hvor det sanne bildet ditt ligger,
+  Som henger stille i brystets butikk,
+  Det har vinduene hans glasert med dine øyne:
+  Se nå hva godt som gjør øynene for øynene har gjort,
+  Mine øyne tegnet din form og dine for meg
+  Er vinduer mot brystet mitt, hvor jeg er gjennom solen
+  Herligheter å kikke, å se på deg;
+    Likevel øyner denne utspekulerte kunsten å gi sin kunst,
+    De tegner, men hva de ser, vet ikke hjertet.
+
+
+                     25
+  La de som er i favør av stjernene sine,
+  Av offentlig ære og stolte titler kan skryte,
+  Mens jeg hvem formue av slike triumfstenger
+  Synes ikke for glede ved at jeg ærer mest;
+  Store fyrsteres favoritter deres rettferdige blader sprer seg,
+  Men som ringblomst ved solens øye,
+  Og i seg selv ligger deres stolthet begravet,
+  For i rynke dør de i sin prakt.
+  Den smertefulle krigeren berømt for kamp,
+  Etter tusen seire en gang forkastet,
+  Er fra æresboken jevnet ganske,
+  Og alle de andre glemte han slet:
+    Da glad jeg som elsker og er elsket
+    Hvor jeg ikke kan fjerne eller bli fjernet.
+
+
+                     26
+  Herren om min kjærlighet, til hvem i vasalage
+  Din fortjeneste har min plikt sterkt strikket;
+  Til deg sender jeg denne skriftlige ambassaden
+  Å være vitne til plikt, ikke å vise vitsen min.
+  Plikt så stor, som er så dårlig som min
+  Kan få virke nakne, i å ville ord for å vise det;
+  Men at jeg håper noe godt inntrykk av deg
+  I din sjels tanke (helt naken) vil skjenke det:
+  Til den stjernen som leder min bevegelse,
+  Peker på meg nådig med et rettferdig aspekt,
+  Og legger klær på min tattered kjærlighet,
+  For å vise meg verdig din søte respekt,
+    Så kan jeg våge å skryte av hvordan jeg elsker deg,
+    Inntil da, ikke vis hodet mitt hvor du kan bevise meg.
+
+
+                     27
+  Sliten av slit, jeg skynder meg til sengen min,
+  Den kjære resposen for lemmer med reise sliten,
+  Men så begynner en reise i hodet mitt
+  Å jobbe meg når kroppens arbeid er utløpt.
+  For da er tankene mine (fra langt der jeg holder meg)
+  Innså en nidkjær pilegrimsreise til deg,
+  Og hold de hengende øyelokkene åpne,
+  Ser på mørket som de blinde ser.
+  Lagre det min sjeles imaginære syn
+  Presenterer din skygge for mitt synsløse syn,
+  Som som en juvel (hengt i uhyggelig natt)
+  Gjør svart natt beauteous, og hennes gamle ansikt nytt.
+    Se så om dagen mine lemmer, om natten mitt sinn,
+    For deg og for meg selv, ingen stille funn.
+
+
+                     28
+  Hvordan kan jeg da komme tilbake i lykkelig situasjon
+  Som utelukket fordelen med hvile?
+  Når ikke undertrykkelsen av dagen ikke lindres om natten,
+  Men dag for natt og natt for dag undertrykt.
+  Og hver (skjønt fiender til hverkenes regjering)
+  Rist på samtykke hånd for å torturere meg,
+  Den ene ved slit, den andre til å klage
+  Hvor langt jeg sliter, enda lenger unna deg.
+  Jeg ber dagen glede ham, du er lys,
+  Og nå ham nåde når skyer ødelegger himmelen:
+  Så flattere jeg den svart-komplekse natten,
+  Når glitrende stjerner snurrer, må du ikke forgylle selv.
+    Men dag trekker daglige sorgene mine lenger,
+    Og om natten gjør sorgens lengde sterkere
+
+
+                     29
+  Når du er i vanære med Fortune og menns øyne,
+  Jeg alene flytter min utstøtte tilstand,
+  Og problemer med å døve himmelen med mine skrikløse rop,
+  Og se på meg selv og forbanne skjebnen min,
+  Ønsker meg som en rik på håp,
+  Utvalgt som ham, som ham med besatte venner,
+  Ønsker denne manns kunst, og den mannens omfang,
+  Med det jeg liker mest tilfreds,
+  Men i disse tankene forakter jeg meg nesten,
+  Lykkelig tenker jeg på deg, og så min tilstand,
+  (Liker med lerken ved daggry som oppstår
+  Fra mull jord) synger salmer ved himmelens port,
+    For din søte kjærlighet husket slik rikdom bringer,
+    At jeg da håner for å endre stat med konger.
+
+
+                     30
+  Når til økter med søt stille tanke,
+  Jeg innkaller minne om fortid,
+  Jeg sukker mangelen på mange ting jeg søkte,
+  Og med gamle elendigheter klynger min kjære tid bort:
+  Da kan jeg drukne et øye (ubrukt å strømme)
+  For dyrebare venner gjemte seg i dødens dateless natt,
+  Og gråt på ny kjærlighet er for lengst avlyst ve,
+  Og stønn bekostning av mangt et forsvunnet syn.
+  Så kan jeg sørge over forutgående klager,
+  Og tungt fra vei til ve fortell det
+  Den triste beretningen om fortvilet klag,
+  Som jeg ny betaler som om ikke betalt før.
+    Men hvis jeg tenker på deg (kjære venn)
+    Alle tap blir gjenopprettet, og sorger slutter.
+
+
+                     31
+  Din barm er kjærlig av alle hjerter,
+  Som jeg mangler har antatt død,
+  Og det hersker kjærlighet og all kjærlighets kjærlige deler,
+  Og alle vennene jeg trodde jeg var begravet.
+  Hvor mange en hellig og tvingende tåre
+  Har kjære religiøse kjærlighet stol'n fra mitt øye,
+  Som interesse for de døde, som nå dukker opp,
+  Men ting som er skjult i deg, ligger.
+  Du er graven der gravlagt kjærlighet bor,
+  Hengt med troféene til mine elskere borte,
+  Som gjorde alle deres deler av meg mot deg,
+  Det på grunn av mange, er nå bare deg.
+    Bildene deres elsket jeg i deg,
+    Og du (alle de) har alt meg alle.
+
+
+                     32
+  Hvis du overlever min godt tilfredse dag,
+  Når den kurrende døden, skal mine bein med støv dekke
+  Og du skal fortune nok en gang en ny undersøkelse
+  Disse dårlige frekke linjene til din avdøde kjæreste:
+  Sammenlign dem med tidens bett'ring,
+  Og selv om de blir overgått av hver penn,
+  Reserver dem for min kjærlighet, ikke for deres rim,
+  Overskredet av høyden til lykkeligere menn.
+  O så garanterer meg, men denne kjærlige tanken,
+  Hadde min venns Muse vokst med denne voksende alderen,
+  En dyrere fødsel enn dette hans kjærlighet hadde ført til
+  Å marsjere i rekkene med bedre utstyr:
+    Men siden han døde og poeter bedre kan bevise,
+    Deres for deres stil vil jeg lese, hans for hans kjærlighet.
+
+
+                     33
+  Full mange en strålende morgen har jeg sett,
+  Flatter fjelltoppene med suverene øyne,
+  Kysser med gyldent ansikt engene grønne;
+  Forgylning av bleke bekker med himmelsk alkymi:
+  Anon tillater de mest skyene å ri,
+  Med stygt rack i det himmelske ansiktet,
+  Og fra den forlatte verden skjuler hans ansikt
+  Å stjele usett mot vest med denne skam:
+  Allikevel skinner solen min en tidlig morgen,
+  Med all triumferende prakt på pannen,
+  Men ute av alt, han var bare en time min,
+  Regionskyen har maskert ham fra meg nå.
+    Likevel ham for dette, min kjærlighet er ikke foraktet,
+    Verdens soler kan flekkes når himmelens sol flekker.
+
+
+                     34
+  Hvorfor lovet du en så fin dag,
+  Og få meg til å reise frem uten kappen min,
+  For å la basskyer få øye på meg på min måte,
+  Gjemmer du modet ditt i deres råtne røyk?
+  'Det er ikke nok at du bryter gjennom skyen,
+  Å tørke regnet på det stormfylte ansiktet mitt,
+  For ingen mennesker med en slik salve kan tale,
+  Som helbreder såret, og kurerer ikke skam:
+  Heller ikke din skam kan gi min sorg fysikk,
+  Selv om du omvender deg, har jeg fortsatt tapet,
+  Overtreders sorg gir en lett lettelse
+  Til ham som bærer det sterke krenkets kors.
+    Ah men de tårene er perle som din kjærlighet kaster,
+    Og de er rike og løser alle syke gjerninger.

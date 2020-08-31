@@ -68,7 +68,7 @@ namespace Rood_4_Letterfrequenties
 
 
             foreach ( char key in sortedLetterFrequency.Keys ){
-                Console.WriteLine(key + ":" + sortedLetterFrequency[key].ToString());
+                Console.WriteLine(key + "\t" + sortedLetterFrequency[key].ToString());
             }
 
             // letter
@@ -76,7 +76,7 @@ namespace Rood_4_Letterfrequenties
             {
                 foreach (char key in sortedLetterFrequency.Keys)
                 {
-                    SWoutputFile.WriteLine(key + ":" + sortedLetterFrequency[key].ToString());
+                    SWoutputFile.WriteLine(key + "\t" + sortedLetterFrequency[key].ToString());
                 }
             }
 
