@@ -32,7 +32,7 @@
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.buttonEncode = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonDecode = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxOutputFilename = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -70,17 +70,17 @@
             this.buttonEncode.TabIndex = 3;
             this.buttonEncode.Text = "Encode";
             this.buttonEncode.UseVisualStyleBackColor = true;
-            this.buttonEncode.Click += new System.EventHandler(this.buttonEncode_Click);
+            this.buttonEncode.Click += new System.EventHandler(this.buttonDEncode_Click);
             // 
-            // button2
+            // buttonDecode
             // 
-            this.button2.Location = new System.Drawing.Point(166, 301);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Decode";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.buttonDecode_Click);
+            this.buttonDecode.Location = new System.Drawing.Point(166, 301);
+            this.buttonDecode.Name = "buttonDecode";
+            this.buttonDecode.Size = new System.Drawing.Size(75, 23);
+            this.buttonDecode.TabIndex = 3;
+            this.buttonDecode.Text = "Decode";
+            this.buttonDecode.UseVisualStyleBackColor = true;
+            this.buttonDecode.Click += new System.EventHandler(this.buttonDEncode_Click);
             // 
             // label1
             // 
@@ -154,7 +154,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.buttonDecode);
             this.Controls.Add(this.buttonEncode);
             this.Controls.Add(this.textBoxOutputFilename);
             this.Controls.Add(this.textBoxPassword);
@@ -173,7 +173,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button buttonEncode;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonDecode;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxOutputFilename;
         private System.Windows.Forms.Label label2;

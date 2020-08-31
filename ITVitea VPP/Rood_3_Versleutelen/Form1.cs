@@ -45,65 +45,7 @@ namespace Rood_3_Versleutelen
             }
         }
 
-        private void buttonEncode_Click(object sender, EventArgs e)
-        {
-            //int passwordlength = passwordKey.Length;
-
-            inputFileName = textBoxInputFileLoc.Text;
-            outputFileName = textBoxOutputFilename.Text;
-            passwordKey = textBoxPassword.Text;
-            passwordKeyHash = Math.Abs(passwordKey.GetHashCode());
-
-            // Make sure all the things are in order
-
-            if (!File.Exists(inputFileName))
-            {
-                Console.WriteLine("inputfile doesn't exist!");
-                return;
-            }
-            if (outputFileName == "")
-            {
-                Console.WriteLine("outputfilename unspecified!");
-                return;
-            }
-            if (passwordKey == "")
-            {
-                Console.WriteLine("Password empty");
-                return;
-            }
-
-            // run through inputfile untill EOF
-            // write to outputfile with bitModGen
-
-            Console.WriteLine(inputFileName);
-            Console.WriteLine(outputFileName);
-
-            FSinputFile = File.Open(inputFileName, FileMode.Open, FileAccess.Read);
-            FSoutputFile = File.Open(outputFileName, FileMode.Create, FileAccess.Write);
-
-            int readbyteblock_size = 126; // magic number
-
-            byte[] readbyteblock = new byte[readbyteblock_size];
-            byte[] writebyteblock = new byte[readbyteblock_size];
-            int readbytes;
-
-            while ( (readbytes = FSinputFile.Read(readbyteblock, 0, readbyteblock_size) ) > 0 )
-            {
-
-                for (int i = 0; i != readbytes; i++)
-                {
-                    writebyteblock[i] = (byte)(readbyteblock[i] + bitModGenerator(passwordKeyHash).First());
-                }
-
-                FSoutputFile.Write(writebyteblock, 0, readbytes);
-            }
-
-            FSinputFile.Close();
-            FSoutputFile.Close();
-            Console.WriteLine("Done");
-        }
-
-        private void buttonDecode_Click(object sender, EventArgs e)
+        private void buttonDEncode_Click(object sender, EventArgs e)
         {
             //int passwordlength = passwordKey.Length;
 
@@ -153,7 +95,13 @@ namespace Rood_3_Versleutelen
 
                 for (int i = 0; i != readbytes; i++)
                 {
-                    writebyteblock[i] = (byte)(readbyteblock[i] - bitModGenerator(passwordKeyHash).First());
+                    if (sender == buttonEncode)
+                    {
+                        writebyteblock[i] = (byte)(readbyteblock[i] + bitModGenerator(passwordKeyHash).First());
+                    } else if (sender == buttonDecode)
+                    {
+                        writebyteblock[i] = (byte)(readbyteblock[i] - bitModGenerator(passwordKeyHash).First());
+                    }
                 }
 
                 FSoutputFile.Write(writebyteblock, 0, readbytes);
