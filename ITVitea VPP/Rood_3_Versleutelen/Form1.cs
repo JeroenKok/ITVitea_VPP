@@ -89,9 +89,6 @@ namespace Rood_3_Versleutelen
 
             while ( (readbytes = FSinputFile.Read(readbyteblock, 0, readbyteblock_size) ) > 0 )
             {
-                Console.WriteLine("0:" + readbytes.ToString());
-                Console.WriteLine("1:" + readbyteblock.ToString());
-                Console.WriteLine("2:" + writebyteblock.ToString());
 
                 for (int i = 0; i != readbytes; i++)
                 {
@@ -103,6 +100,7 @@ namespace Rood_3_Versleutelen
 
             FSinputFile.Close();
             FSoutputFile.Close();
+            Console.WriteLine("Done");
         }
 
         private void buttonDecode_Click(object sender, EventArgs e)
@@ -163,6 +161,7 @@ namespace Rood_3_Versleutelen
 
             FSinputFile.Close();
             FSoutputFile.Close();
+            Console.WriteLine("Done");
         }
 
         private void buttonInputFileDialog_Click(object sender, EventArgs e)
