@@ -87,14 +87,21 @@ namespace Rood_3_Versleutelen
             byte[] writebyteblock = new byte[readbyteblock_size];
             int readbytes;
 
+            long filesize = new FileInfo(inputFileName).Length;
+            progressBar1.Maximum = (int)filesize;
+
             while ((readbytes = FSinputFile.Read(readbyteblock, 0, readbyteblock_size)) > 0)
             {
                 //Console.WriteLine("0:" + readbytes.ToString());
                 //Console.WriteLine("1:" + readbyteblock.ToString());
                 //Console.WriteLine("2:" + writebyteblock.ToString());
 
+                progressBar1.Value = (int)FSinputFile.Position;
+
                 for (int i = 0; i != readbytes; i++)
                 {
+
+
                     if (sender == buttonEncode)
                     {
                         writebyteblock[i] = (byte)(readbyteblock[i] + bitModGenerator(passwordKeyHash).First());

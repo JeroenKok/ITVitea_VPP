@@ -53,13 +53,13 @@
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog1";
-            this.openFileDialog.InitialDirectory = "\".\"";
+            this.openFileDialog.InitialDirectory = "\"..\"";
             // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(85, 347);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.Size = new System.Drawing.Size(622, 23);
             this.progressBar1.TabIndex = 2;
             // 
             // buttonEncode
