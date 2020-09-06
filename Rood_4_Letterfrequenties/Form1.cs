@@ -24,7 +24,6 @@ namespace Rood_4_Letterfrequenties
 
         private void buttonBrowse_Click(object sender, EventArgs e)
         {
-
             openFileDialog.ShowDialog();
             textBoxInputFilename.Text = openFileDialog.FileName;
         }
@@ -47,19 +46,27 @@ namespace Rood_4_Letterfrequenties
                 return;
             }
 
-
-
-            foreach ( string line in File.ReadLines(inputFileName) )
+            using ( StreamReader SRinputFile = new StreamReader(inputFileName) )
             {
-                foreach(char chr in line)
-                {
-                    if(letterFrequency.ContainsKey(chr))
+
+                long filesize = new FileInfo(inputFileName).Length;
+                progressBar1.Maximum = (int)filesize;
+
+                string line;
+                while( (line = SRinputFile.ReadLine()) != null){
+
+                    progressBar1.Value += (int)line.Length;
+
+                    foreach (char chr in line)
                     {
-                        letterFrequency[chr] += 1;
-                    }
-                    else
-                    {
-                        letterFrequency.Add(chr, 1);
+                        if (letterFrequency.ContainsKey(chr))
+                        {
+                            letterFrequency[chr] += 1;
+                        }
+                        else
+                        {
+                            letterFrequency.Add(chr, 1);
+                        }
                     }
                 }
             }
@@ -71,6 +78,7 @@ namespace Rood_4_Letterfrequenties
                 Console.WriteLine(key + "\t" + sortedLetterFrequency[key].ToString());
             }
 
+
             // letter
             using (StreamWriter SWoutputFile = new StreamWriter("letterFrequency.txt"))
             {
@@ -80,6 +88,8 @@ namespace Rood_4_Letterfrequenties
                 }
             }
 
+            // This is way to hacky. But I can't figure out the descrepancy between the maximum and read pointer.
+            progressBar1.Value = progressBar1.Maximum;
         }
     }
 }

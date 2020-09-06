@@ -33,31 +33,29 @@
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.buttonBrowse = new System.Windows.Forms.Button();
             this.buttonProcess = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // textBoxInputFilename
             // 
-            this.textBoxInputFilename.Location = new System.Drawing.Point(229, 147);
+            this.textBoxInputFilename.Location = new System.Drawing.Point(12, 44);
             this.textBoxInputFilename.Name = "textBoxInputFilename";
-            this.textBoxInputFilename.Size = new System.Drawing.Size(100, 20);
+            this.textBoxInputFilename.Size = new System.Drawing.Size(461, 20);
             this.textBoxInputFilename.TabIndex = 0;
+            this.textBoxInputFilename.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(229, 99);
+            this.label1.Location = new System.Drawing.Point(9, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
-            // 
-            // openFileDialog
-            // 
-            this.openFileDialog.FileName = "openFileDialog";
+            this.label1.Text = "Input File Location";
             // 
             // buttonBrowse
             // 
-            this.buttonBrowse.Location = new System.Drawing.Point(229, 186);
+            this.buttonBrowse.Location = new System.Drawing.Point(12, 70);
             this.buttonBrowse.Name = "buttonBrowse";
             this.buttonBrowse.Size = new System.Drawing.Size(75, 23);
             this.buttonBrowse.TabIndex = 2;
@@ -67,7 +65,7 @@
             // 
             // buttonProcess
             // 
-            this.buttonProcess.Location = new System.Drawing.Point(229, 280);
+            this.buttonProcess.Location = new System.Drawing.Point(12, 99);
             this.buttonProcess.Name = "buttonProcess";
             this.buttonProcess.Size = new System.Drawing.Size(75, 23);
             this.buttonProcess.TabIndex = 3;
@@ -75,11 +73,19 @@
             this.buttonProcess.UseVisualStyleBackColor = true;
             this.buttonProcess.Click += new System.EventHandler(this.buttonProcess_Click);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 128);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(461, 23);
+            this.progressBar1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(485, 207);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.buttonProcess);
             this.Controls.Add(this.buttonBrowse);
             this.Controls.Add(this.label1);
@@ -98,6 +104,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.Button buttonBrowse;
         private System.Windows.Forms.Button buttonProcess;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
