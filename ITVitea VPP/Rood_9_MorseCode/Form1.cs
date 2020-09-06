@@ -130,8 +130,14 @@ namespace Rood_3_Versleutelen
                 string balue = "";
                 using (StreamWriter SWoutputFile = new StreamWriter(outputFileName))
                 {
+                    long filesize = new FileInfo(inputFileName).Length;
+                    progressBar1.Maximum = (int)filesize;
+
+
                     foreach (string line in File.ReadLines(inputFileName))
                     {
+                        progressBar1.Value += (int)line.Length;
+
                         string nline = line.ToLower();
                         changedLine = "";
 
@@ -156,8 +162,14 @@ namespace Rood_3_Versleutelen
 
                 using (StreamWriter SWoutputFile = new StreamWriter(outputFileName))
                 {
+                    long filesize = new FileInfo(inputFileName).Length;
+                    progressBar1.Maximum = (int)filesize;
+
                     foreach (string line in File.ReadLines(inputFileName))
                     {
+
+                        progressBar1.Value += (int)line.Length;
+
                         string[] morseWords = line.Split(' ');
                         changedLine = "";
 
@@ -174,6 +186,7 @@ namespace Rood_3_Versleutelen
                 }
 
             }
+            progressBar1.Value = progressBar1.Maximum;
 
             Console.WriteLine("Done");
         }

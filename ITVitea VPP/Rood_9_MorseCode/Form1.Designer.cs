@@ -42,7 +42,7 @@
             // 
             // textBoxInputFileLoc
             // 
-            this.textBoxInputFileLoc.Location = new System.Drawing.Point(85, 37);
+            this.textBoxInputFileLoc.Location = new System.Drawing.Point(12, 30);
             this.textBoxInputFileLoc.Name = "textBoxInputFileLoc";
             this.textBoxInputFileLoc.Size = new System.Drawing.Size(622, 20);
             this.textBoxInputFileLoc.TabIndex = 0;
@@ -55,14 +55,14 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(85, 271);
+            this.progressBar1.Location = new System.Drawing.Point(12, 233);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.Size = new System.Drawing.Size(622, 23);
             this.progressBar1.TabIndex = 2;
             // 
             // buttonEncode
             // 
-            this.buttonEncode.Location = new System.Drawing.Point(85, 225);
+            this.buttonEncode.Location = new System.Drawing.Point(12, 204);
             this.buttonEncode.Name = "buttonEncode";
             this.buttonEncode.Size = new System.Drawing.Size(75, 23);
             this.buttonEncode.TabIndex = 3;
@@ -72,7 +72,7 @@
             // 
             // buttonDecode
             // 
-            this.buttonDecode.Location = new System.Drawing.Point(166, 225);
+            this.buttonDecode.Location = new System.Drawing.Point(93, 204);
             this.buttonDecode.Name = "buttonDecode";
             this.buttonDecode.Size = new System.Drawing.Size(75, 23);
             this.buttonDecode.TabIndex = 3;
@@ -83,7 +83,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 21);
+            this.label1.Location = new System.Drawing.Point(9, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             // textBoxOutputFilename
             // 
-            this.textBoxOutputFilename.Location = new System.Drawing.Point(85, 126);
+            this.textBoxOutputFilename.Location = new System.Drawing.Point(12, 119);
             this.textBoxOutputFilename.Name = "textBoxOutputFilename";
             this.textBoxOutputFilename.Size = new System.Drawing.Size(622, 20);
             this.textBoxOutputFilename.TabIndex = 0;
@@ -100,7 +100,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(82, 110);
+            this.label2.Location = new System.Drawing.Point(9, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 4;
@@ -108,7 +108,7 @@
             // 
             // buttonInputFileDialog
             // 
-            this.buttonInputFileDialog.Location = new System.Drawing.Point(85, 63);
+            this.buttonInputFileDialog.Location = new System.Drawing.Point(12, 56);
             this.buttonInputFileDialog.Name = "buttonInputFileDialog";
             this.buttonInputFileDialog.Size = new System.Drawing.Size(75, 23);
             this.buttonInputFileDialog.TabIndex = 5;
@@ -118,7 +118,7 @@
             // 
             // buttonOutputFileDialog
             // 
-            this.buttonOutputFileDialog.Location = new System.Drawing.Point(85, 157);
+            this.buttonOutputFileDialog.Location = new System.Drawing.Point(12, 150);
             this.buttonOutputFileDialog.Name = "buttonOutputFileDialog";
             this.buttonOutputFileDialog.Size = new System.Drawing.Size(75, 23);
             this.buttonOutputFileDialog.TabIndex = 5;
@@ -130,7 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(650, 280);
             this.Controls.Add(this.buttonOutputFileDialog);
             this.Controls.Add(this.buttonInputFileDialog);
             this.Controls.Add(this.label2);
